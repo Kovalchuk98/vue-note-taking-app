@@ -10,10 +10,13 @@ export default {};
 
 <style lang="scss">
 .header_wrapper {
+  position: fixed;
+  top: 0;
   display: flex;
   align-items: center;
   height: 60px;
   background-color: #1f0885;
+  width: 100%;
 
   .logo {
     color: #fff;
